@@ -1,8 +1,8 @@
 # BingGptCSharp
 
-怎么获得 Cookie
-How Get Cookie
-      Edge/Chromium 安装插件 Cookie Editor，导出 Export as Json
+怎么获得 Cookie\
+How Get Cookie\
+      Edge/Chromium 安装插件 Cookie Editor，导出 Export as Json\
 
 
 samples:
