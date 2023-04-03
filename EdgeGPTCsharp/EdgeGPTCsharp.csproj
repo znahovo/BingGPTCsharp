@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>BingGPTNet</Title>
+		<Authors>$(AssemblyName)</Authors>
+		<Description>BingGPT for .net</Description>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Flurl" Version="3.0.7" />
+		<PackageReference Include="Flurl.Http" Version="3.2.4" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="WatsonWebsocket" Version="4.0.8" />
+	</ItemGroup>
+
+</Project>
