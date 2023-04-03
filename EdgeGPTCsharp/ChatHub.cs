@@ -74,7 +74,8 @@ namespace EdgeGPTCsharp
                         if (a["arguments"][0]["messages"][0]["text"].ToString().Contains("Searching the web for"))
                         {
                             Console.WriteLine(a["arguments"][0]["messages"][0]["text"].ToString());
-                        }else
+                        }
+                        else
                         {
                             temp.Add(a["arguments"][0]["messages"][0]["text"].ToString());
                             if (temp.Count == 1)
@@ -94,9 +95,9 @@ namespace EdgeGPTCsharp
                                 converIndex++;
                             }
                         }
-                      
 
-                     
+
+
                     }
                 }
 
@@ -110,12 +111,12 @@ namespace EdgeGPTCsharp
 
         private void Client_ServerDisconnected(object? sender, EventArgs e)
         {
-            Console.WriteLine("DisConnect");
+
         }
 
         private void Client_ServerConnected(object? sender, EventArgs e)
         {
-            Console.WriteLine("Connected");
+
         }
 
         public void HandShake(WatsonWsClient wss)
